@@ -1,0 +1,32 @@
+body {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(
+      circle,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(30, 54, 59, 1) 0%,
+      rgba(93, 93, 116, 1) 100%
+    );
+  }
+  
+  .container {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 750px;
+    width: 75%;
+    margin: auto;
+  }
+  .container > label {
+    width: 100%;
+    border: 2px solid #3a9200;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgb(255, 178, 226);
+  }
+
+  label {
+    justify-content: center;
+  }
+  
